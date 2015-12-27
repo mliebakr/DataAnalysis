@@ -67,9 +67,9 @@ Frequency Body Acceleration Mean Frequency - Direction Z
 Frequency Body Acceleration Jerk Mean Value - Direction X
 Frequency Body Acceleration Jerk Mean Value - Direction Y
 Frequency Body Acceleration Jerk Mean Value - Direction Z
+
 Frequency Body Acceleration Jerk Mean Frequency - Direction X
 Frequency Body Acceleration Jerk Mean Frequency - Direction Y
-
 Frequency Body Acceleration Jerk Mean Frequency - Direction Z     
 Frequency Body Velocity Mean Value - Direction X
 Frequency Body Velocity Mean Value - Direction Y                  
