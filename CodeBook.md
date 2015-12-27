@@ -13,8 +13,14 @@ The following files where loaded:
 
 # Code Book
 Description of the modified data set:
+This dataset contains 180 rows and 81 columns. One row exist per activity and subject (test person).
+The dataset contain column headings.
+
 ##Activity: 
 The activity done written with full text. 
+
+Variable type: character
+
 The following values exist:
 WALKING
 WALKING_UPSTAIRS
@@ -25,6 +31,9 @@ LAYING
 
 ##Subject:
 The person who did the test.
+
+Variable type: character
+
 There are 30 values for subject given in the following format:
 Subject 1
 Subject 2
@@ -36,57 +45,59 @@ Subject 30
 ##Measures:
 All the measures are calculated as the average value per Acivity and Subject.
 This is the only change done compared to the original value of the measure.
+Variable type: numeric
+
 The following measures exists:
 
-Time Body Acceleration Mean Value - Direction X                    
-Time Body Acceleration Mean Value - Direction Y                   
-Time Body Acceleration Mean Value - Direction Z                    
-Time Gravity Acceleration Mean Value - Direction X                
-Time Gravity Acceleration Mean Value - Direction Y                 
-Time Gravity Acceleration Mean Value - Direction Z                
-Time Body Acceleration Jerk Mean Value - Direction X               
-Time Body Acceleration Jerk Mean Value - Direction Y              
-Time Body Acceleration Jerk Mean Value - Direction Z               
-Time Body Velocity Mean Value - Direction X                       
-Time Body Velocity Mean Value - Direction Y                      
-Time Body Velocity Mean Value - Direction Z                       
-Time Velocity Jerk Mean Value - Direction X                        
-Time Velocity Jerk Mean Value - Direction Y                       
-Time Velocity Jerk Mean Value - Direction Z                        
-Time Body Acceleration Magnitude Mean Value                       
-Time Gravity Acceleration Magnitude Mean Value                     
-Time Body Acceleration Jerk Magnitude Mean Value                  
-Time Body Velocity Magnitude Mean Value                            
-Time Body Velocity Jerk Magnitude Mean Value                      
-Frequency Body Acceleration Mean Value - Direction X               
-Frequency Body Acceleration Mean Value - Direction Y              
-Frequency Body Acceleration Mean Value - Direction Z               
-Frequency Body Acceleration Mean Frequency - Direction X          
-Frequency Body Acceleration Mean Frequency - Direction Y           
-Frequency Body Acceleration Mean Frequency - Direction Z          
+Time Body Acceleration Mean Value - Direction X
+Time Body Acceleration Mean Value - Direction Y
+Time Body Acceleration Mean Value - Direction Z                   
+Time Gravity Acceleration Mean Value - Direction X
+Time Gravity Acceleration Mean Value - Direction Y
+Time Gravity Acceleration Mean Value - Direction Z
+Time Body Acceleration Jerk Mean Value - Direction X
+Time Body Acceleration Jerk Mean Value - Direction Y
+Time Body Acceleration Jerk Mean Value - Direction Z
+Time Body Velocity Mean Value - Direction X
+Time Body Velocity Mean Value - Direction Y
+Time Body Velocity Mean Value - Direction Z
+Time Velocity Jerk Mean Value - Direction X
+Time Velocity Jerk Mean Value - Direction Y
+Time Velocity Jerk Mean Value - Direction Z
+Time Body Acceleration Magnitude Mean Value
+Time Gravity Acceleration Magnitude Mean Value
+Time Body Acceleration Jerk Magnitude Mean Value
+Time Body Velocity Magnitude Mean Value
+Time Body Velocity Jerk Magnitude Mean Value
+Frequency Body Acceleration Mean Value - Direction X
+Frequency Body Acceleration Mean Value - Direction Y
+Frequency Body Acceleration Mean Value - Direction Z
+Frequency Body Acceleration Mean Frequency - Direction X
+Frequency Body Acceleration Mean Frequency - Direction Y
+Frequency Body Acceleration Mean Frequency - Direction Z
 Frequency Body Acceleration Jerk Mean Value - Direction X
 Frequency Body Acceleration Jerk Mean Value - Direction Y
 Frequency Body Acceleration Jerk Mean Value - Direction Z
 
 Frequency Body Acceleration Jerk Mean Frequency - Direction X
 Frequency Body Acceleration Jerk Mean Frequency - Direction Y
-Frequency Body Acceleration Jerk Mean Frequency - Direction Z     
+Frequency Body Acceleration Jerk Mean Frequency - Direction Z
 Frequency Body Velocity Mean Value - Direction X
-Frequency Body Velocity Mean Value - Direction Y                  
-Frequency Body Velocity Mean Value - Direction Z                   
-Frequency Body Velocity Mean Frequency - Direction X              
+Frequency Body Velocity Mean Value - Direction Y
+Frequency Body Velocity Mean Value - Direction Z
+Frequency Body Velocity Mean Frequency - Direction X
 Frequency Body Velocity Mean Frequency - Direction Y
 Frequency Body Velocity Mean Frequency - Direction Z
-Frequency Body Acceleration Magnitude-Mean Value                 
-Frequency Body Acceleration Magnitude-Mean Frequency         
-Frequency Body Body Acceleration Jerk Magnitude Mean Value      
+Frequency Body Acceleration Magnitude-Mean Value
+Frequency Body Acceleration Magnitude-Mean Frequency
+Frequency Body Body Acceleration Jerk Magnitude Mean Value
 Frequency Body Body Acceleration Jerk Magnitude Mean Frequency
-Frequency Body Body Velocity Magnitude Mean Value                  
-Frequency Body Body Velocity Magnitude Mean Frequency             
-Frequency Body Body Velocity Jerk Magnitude Mean Value             
+Frequency Body Body Velocity Magnitude Mean Value
+Frequency Body Body Velocity Magnitude Mean Frequency
+Frequency Body Body Velocity Jerk Magnitude Mean Value
 Frequency Body Body Velocity Jerk Magnitude Mean Frequency
-Time Body Acceleration Standard Deviation - Direction X         
-Time Body Acceleration Standard Deviation - Direction Y           
+Time Body Acceleration Standard Deviation - Direction X
+Time Body Acceleration Standard Deviation - Direction Y
 Time Body Acceleration Standard Deviation - Direction Z
 Time Gravity Acceleration Standard Deviation - Direction X
 Time Gravity Acceleration Standard Deviation - Direction Y
