@@ -1,4 +1,4 @@
-## Study Design
+# Study Design
 Each file was loaded into separate dataframes.
 The files was loaded directly without doing any changes.
 The following files where loaded:
@@ -11,9 +11,9 @@ The following files where loaded:
 ./UCI HAR Dataset/test/y_test.txt
 ./UCI HAR Dataset/test/subject_test.txt
 
-## Code Book
+# Code Book
 Description of the modified data set:
-#Activity: 
+##Activity: 
 The activity done written with full text. 
 The following values exist:
 WALKING
@@ -23,7 +23,7 @@ SITTING
 STANDING
 LAYING
 
-#Subject:
+##Subject:
 The person who did the test.
 There are 30 values for subject given in the following format:
 Subject 1
@@ -33,7 +33,7 @@ Subject 3
 .
 Subject 30
 
-#Measures:
+##Measures:
 All the measures are calculated as the average value per Acivity and Subject.
 This is the only change done compared to the original value of the measure.
 The following measures exists:
