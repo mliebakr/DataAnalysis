@@ -1,5 +1,6 @@
 # Study Design
-Each file was loaded into separate dataframes.
+1. A directory "UCI HAR Dataset" was created in the home directory. To be used for the loaded data files
+2. Each file was loaded into separate dataframes. The dataframes has the same name as the file, but without the extension .txt
 The files was loaded directly without doing any changes.
 The following files where loaded:   
 ./UCI HAR Dataset/activity_labels.txt   
@@ -10,6 +11,18 @@ The following files where loaded:
 ./UCI HAR Dataset/test/X_test.txt   
 ./UCI HAR Dataset/test/y_test.txt   
 ./UCI HAR Dataset/test/subject_test.txt   
+
+3. A timestamp is created for the time of the load of the data files
+4. All colums in all the data frames is checked for null values
+5. The features file was used to name the columns in x_test and x_train
+6. x_train and x_test is then extended to hold the corresponding columns activity from y_train/y_test and subject person from subject_train/subject_test 
+7. x_train and x_test are combined in dataframe x_test_and_train
+8. x_test_and_train is joined to activity_labels to get the textual activity names
+9. A dataframe df_mean_and_std was created to only hold the variables containing "std" and "mean" in the variable names
+10. Column names changed to meaningfull names
+11. Grouped data frame on Activity and Subject and calculated mean value of all measures
+12. Write table my_mean_df.txt
+
 
 # Code Book
 Description of the modified data set:
