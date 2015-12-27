@@ -64,13 +64,14 @@ Frequency Body Acceleration Mean Value - Direction Z
 Frequency Body Acceleration Mean Frequency - Direction X          
 Frequency Body Acceleration Mean Frequency - Direction Y           
 Frequency Body Acceleration Mean Frequency - Direction Z          
-Frequency Body Acceleration Jerk Mean Value - Direction X          
-Frequency Body Acceleration Jerk Mean Value - Direction Y         
-Frequency Body Acceleration Jerk Mean Value - Direction Z          
+Frequency Body Acceleration Jerk Mean Value - Direction X
+Frequency Body Acceleration Jerk Mean Value - Direction Y
+Frequency Body Acceleration Jerk Mean Value - Direction Z
 Frequency Body Acceleration Jerk Mean Frequency - Direction X
 Frequency Body Acceleration Jerk Mean Frequency - Direction Y
+
 Frequency Body Acceleration Jerk Mean Frequency - Direction Z     
-Frequency Body Velocity Mean Value - Direction X                   
+Frequency Body Velocity Mean Value - Direction X
 Frequency Body Velocity Mean Value - Direction Y                  
 Frequency Body Velocity Mean Value - Direction Z                   
 Frequency Body Velocity Mean Frequency - Direction X              
@@ -86,10 +87,10 @@ Frequency Body Body Velocity Jerk Magnitude Mean Value
 Frequency Body Body Velocity Jerk Magnitude Mean Frequency
 Time Body Acceleration Standard Deviation - Direction X         
 Time Body Acceleration Standard Deviation - Direction Y           
-Time Body Acceleration Standard Deviation - Direction Z          
-Time Gravity Acceleration Standard Deviation - Direction X        
-Time Gravity Acceleration Standard Deviation - Direction Y         
-Time Gravity Acceleration Standard Deviation - Direction Z       
+Time Body Acceleration Standard Deviation - Direction Z
+Time Gravity Acceleration Standard Deviation - Direction X
+Time Gravity Acceleration Standard Deviation - Direction Y
+Time Gravity Acceleration Standard Deviation - Direction Z
 Time Body Acceleration Jerk Standard Deviation - Direction X       
 Time Body Acceleration Jerk Standard Deviation - Direction Y      
 Time Body Acceleration Jerk Standard Deviation - Direction Z       
